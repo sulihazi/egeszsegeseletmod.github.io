@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap');
+*{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+html{
+    scroll-behavior: smooth;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  
+    
+  } 
+header{
+    background-color: rgba(0, 0, 0, 0.497) !important;
+    backdrop-filter: blur(5px);
+    height: 100vh !important;
+    width: 100% !important;
+}
+.container-fluid{
+    width: 100% !important;
+    height: 100vh !important;
+    background-image: url('./kepek/hatter.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+body{
+    background-color: black;
+    color: white !important;
+}
+#tartalom{
+    padding-top: 30px !important;
+}
+.nav-link{
+    color: white !important;
+    padding: 10px !important;
+    padding-left: 23px !important;
+    padding-right: 23px !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+}
+.navbar-brand{
+    color: white !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+
+}
+nav{
+    padding: 30px !important;
+}
+#logo{
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    margin-bottom: 10px !important;
+}
+#zold{
+    color: #3bc600;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+
+  ::-webkit-scrollbar-track {
+    background: #545454;
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+    background: #4c9c00;
+  }
+  
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #096d00;
+  }
+  .navbar{
+    position: fixed !important;
+    z-index: 1;
+  }
+
