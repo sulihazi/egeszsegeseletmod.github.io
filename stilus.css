@@ -215,4 +215,5 @@ header .row{
 #tartalom{
   position: relative !important;
   min-height: 100vh !important;
+  color: rgb(8, 8, 8) !important;
 }
