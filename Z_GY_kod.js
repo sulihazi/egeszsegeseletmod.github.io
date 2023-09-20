@@ -1,0 +1,1 @@
+//gráf lehet tömbbel
