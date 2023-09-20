@@ -82,7 +82,7 @@ nav{
     margin-bottom: 10px !important;
 }
 #zold{
-    color: #3bc600;
+    color: #085c00;
 }
 
 ::-webkit-scrollbar {
@@ -96,12 +96,12 @@ nav{
   
 
   ::-webkit-scrollbar-thumb {
-    background: #4c9c00;
+    background: #0a7c00;
   }
   
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #096d00;
+    background: #043500;
   }
 
 .dropdown-menu{
