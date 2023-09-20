@@ -102,7 +102,7 @@ nav{
   }
 
 .dropdown-menu{
-  margin-top: 5px !important;
+  margin-top: 7.5px !important;
   transition: 0.4s all !important;
   backdrop-filter: blur(20px) !important;
   background-color: rgba(0, 0, 0, 0.315) !important;
@@ -138,7 +138,9 @@ a.dropdown-item:hover{
   margin-right: 5px !important;
   margin-bottom: 5px !important;
 }
-
+.navbar-brand img{
+  margin-top: 5px !important;
+}
 @media (min-width: 768px) {
   .animate {
     animation-duration: 0.3s;
@@ -195,6 +197,10 @@ a.dropdown-item:hover{
   animation-name: slideIn;
 }
 
+.navbar-toggler-icon{
+  margin: 8px !important;
+}
+
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
@@ -207,13 +213,63 @@ a.dropdown-item:hover{
 .custom-toggler.navbar-toggler :focus{
   border-color: rgba(0,0,0,0) !important;
 }
-header .row{
-  padding-top: 25% !important;
+#headertartalom .col{
+  margin-top: 43vh !important;
   text-align: center !important;
 
 }
 #tartalom{
+  padding: 70px !important;
   position: relative !important;
   min-height: 100vh !important;
   color: rgb(8, 8, 8) !important;
+  border-top: solid #054100 30px;
+}
+#headertartalom h1{
+  color: #054100;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  width: fit-content !important;
+  margin:0 auto !important;
+  font-size: 45px !important;
+}
+#headertartalom p{
+  max-width: 400px;
+  margin: 0 auto !important; 
+  color: #363636;
+  font-size: 18px;
+}
+#headertartalom button{
+  transition: 0.5s all;
+  color:white !important;
+  margin-top: 5px !important;
+  border-radius: 10px;
+  padding: 10px !important;
+  border: none !important;
+  background: #043500;
+}
+#headertartalom button:hover{
+  transition: 0.5s all;
+  background:  #085c00;
+}
+
+footer{
+  border-top: solid #054100 30px;
+  background-color: #085c00;
+  height: 20vh !important;
+}
+
+.carousel img{
+  max-width: 700px !important;
+  height: auto !important;
+  margin:0 auto !important;
+  
+  border-radius: 40px !important;
+  -webkit-border-radius: 40px !important;
+  -moz-border-radius: 40px !important;
+  -ms-border-radius: 40px !important;
+  -o-border-radius: 40px !important;
+}
+.carousel{
+  margin-bottom: 500px !important;
 }
