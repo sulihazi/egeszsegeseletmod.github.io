@@ -35,7 +35,7 @@ header{
     top:0;
     left: 0;
 
-    background-color: rgba(0, 0, 0, 0.233) !important;
+    background-color: rgba(97, 97, 97, 0.233) !important;
     backdrop-filter: blur(10px);
 }
 .feherites{
@@ -213,7 +213,7 @@ a.dropdown-item:hover{
 }
 
 .custom-toggler .navbar-toggler-icon {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,0,0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 .custom-toggler.navbar-toggler {
   border-color: rgba(0,0,0,0)  !important;
@@ -247,14 +247,14 @@ a.dropdown-item:hover{
   width: fit-content !important;
   margin:0 auto !important;
   font-size: 45px !important;
-  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.527);
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.527);
 }
 #headertartalom p{
   max-width: 400px;
   margin: 0 auto !important; 
-  color: rgb(241, 241, 241);
+  color: rgb(14, 14, 14);
   font-size: 18px;
-  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.726);
+ 
 }
 #headertartalom button{
   transition: 0.5s all;
@@ -282,11 +282,10 @@ footer{
   height: auto !important;
   margin:0 auto !important;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
-  border-radius: 40px !important;
-  -webkit-border-radius: 40px !important;
-  -moz-border-radius: 40px !important;
-  -ms-border-radius: 40px !important;
-  -o-border-radius: 40px !important;
+  border-top-right-radius: 40px !important;
+  border-bottom-left-radius: 40px !important;
+  border-bottom-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
 }
 .carousel-caption p{
   color: white !important;
