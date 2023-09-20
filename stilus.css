@@ -302,3 +302,7 @@ footer{
   -ms-border-radius: 15px !important;
   -o-border-radius: 15px !important;
 }
+.aktivdropdown{
+  background-color: rgba(0, 0, 0, 0.596) !important;
+
+}
