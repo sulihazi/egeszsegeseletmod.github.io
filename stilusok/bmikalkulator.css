@@ -77,8 +77,8 @@ header{
     padding: 5px !important;
 }
 #tartalom{
-  max-height: 60vh !important;
-}
+    max-height: fit-content !important;
+  }
 #calculator{
   background-color: #ffffff !important;
   max-width: 800px !important;
@@ -95,3 +95,10 @@ header{
   margin-top: -150px !important;
   z-index: 1;
 }
+@media only screen and (max-width: 600px) {
+    #tartalom{
+      padding: 20px !important;
+      padding-top: 120px !important;
+      margin: 0px !important;
+    }
+  }
