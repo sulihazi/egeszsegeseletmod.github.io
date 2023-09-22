@@ -87,7 +87,7 @@ nav{
   width: calc(100%-30px)!important;
   z-index: 1;
     padding:5px !important;
-    margin:30px !important;
+    margin:25px !important;
     background-color: #f3f3f3 !important;
     border-radius: 20px !important;
     -webkit-border-radius: 20px !important;
@@ -364,8 +364,8 @@ footer{
   border-bottom-right-radius: 10px !important;
   border-top-left-radius: 10px !important;
   transition: all 0.7s ease;
-  filter: brightness(60%) !important;
-  -webkit-filter: brightness(60%) !important;
+  filter: brightness(70%) !important;
+  -webkit-filter: brightness(70%) !important;
 }
 
 .carousel{
