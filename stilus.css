@@ -438,6 +438,9 @@ footer .col-sm{
 footer{
   height: fit-content !important;
 }
+footer h4{
+  color:#f7f7f7 !important;
+}
 @media only screen and (max-width: 600px) {
   #headertartalom p{
     max-width: 80% !important;
