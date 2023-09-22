@@ -326,6 +326,7 @@ a.dropdown-item:hover{
 }
 #headertartalom .col-md{
   width: fit-content !important;
+  color: #ececec!important;
 }
 #headertartalom .col-md h2{
 position: relative !important;
