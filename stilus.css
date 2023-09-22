@@ -69,7 +69,7 @@ header{
 }
 body{
     background-color: rgba(228, 228, 228, 0.432);
-    color: white !important;
+    background-color: #f3f3f3 !important;
 }
 #tartalom{
     padding-top: 30px !important;
@@ -297,17 +297,18 @@ a.dropdown-item:hover{
   color: rgb(255, 255, 255);
   font-size: 18px;
   text-shadow: 0px 0px 4px rgb(0, 0, 0) !important;
+  margin-bottom: 15px !important;
 }
-#headertartalom button{
+ .gomb{
   transition: 0.5s all;
   color:white !important;
   margin-top: 5px !important;
   border-radius: 10px;
   font-family: 'Sansregular';
-  padding: 10px !important;
+  padding: 12px !important;
   border: none !important;
-  background: #023100;
-  
+  background: #023100 !important;
+
  
 
   margin-left: 4px !important;
@@ -315,12 +316,22 @@ a.dropdown-item:hover{
   box-shadow:  5px 5px 10px #2222227c,
                -5px -5px 10px #2020207a;
 }
-#headertartalom button:hover{
+ .gomb:hover{
   transition: 0.5s all;
-  background:  #075000;
+  background:  #075000 !important;
+  text-decoration: none !important;
 
 
 
+}
+#headertartalom .col-md{
+  width: fit-content !important;
+}
+#headertartalom .col-md h2{
+position: relative !important;
+margin-left: clamp(5vw,7vw,7vw) !important;
+font-weight: 550 !important;
+ text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.527);
 }
 
 footer{
@@ -334,7 +345,13 @@ footer{
                5px 5px 20px #f1f1f141;
   height: 20vh !important;
 }
-
+.carousel-caption h5{
+  text-align: left !important;
+}
+.carousel-caption p{
+  text-align: left !important;
+  float: left !important;
+}
 .carousel img{
   max-width: 700px !important;
   height: auto !important;
@@ -344,12 +361,24 @@ footer{
   border-bottom-left-radius: 40px !important;
   border-bottom-right-radius: 10px !important;
   border-top-left-radius: 10px !important;
+  transition: all 0.7s ease;
+}
+.carousel{
+  margin: 10px 20px 10px 20px !important;
+  transition: all 0.7s ease;
 }
 .carousel-caption p{
   color: white !important;
 }
 .carousel-caption h5{
   font-weight: 550 !important;
+}
+.carousel-inner{
+  transition: 0.5s all !important;
+  -webkit-transition: 0.5s all !important;
+  -moz-transition: 0.5s all !important;
+  -ms-transition: 0.5s all !important;
+  -o-transition: 0.5s all !important;
 }
 .aktiv{
 transition: 0.5s all !important;
@@ -442,11 +471,13 @@ footer{
   font-weight: 600 !important;
   margin-top: 20px !important;
   margin-bottom: 20px !important;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.418);
  
 }
 #fooldal h1, #fooldal h2{
   max-width: 800px !important;
   margin:0 auto !important;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.418);
 }
 #fooldal p{
   max-width: 700px !important;
@@ -454,6 +485,7 @@ footer{
   font-size: 20px !important;
   margin-top: 15px !important;
   text-align: left !important;
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.178);
 }
 #fooldal img{
   max-width: 80% !important;
@@ -464,7 +496,10 @@ footer{
   -webkit-border-radius: 20px !important;
   -moz-border-radius: 20px !important;
   -ms-border-radius: 20px !important;
+
   -o-border-radius: 20px !important;
+  box-shadow:  6px 6px 12px #b9b9b9,
+  -6px -6px 12px #ffffff;
 }
 @media only screen and (min-width: 990px) {
   .dropdown-menu{
@@ -474,12 +509,14 @@ footer{
       border-top-right-radius: 5px !important;
       border-bottom-left-radius: 5px !important;
       border-bottom-right-radius: 50px !important;
+   
     }
     #fooldal #img2{
       border-top-right-radius: 50px !important;
       border-top-left-radius: 5px !important;
       border-bottom-right-radius: 5px !important;
       border-bottom-left-radius: 50px !important;
+    
     }
 
 }
@@ -495,6 +532,7 @@ footer{
   font-size: 24px !important;
   font-weight: 550 !important;
   margin-top: 20px !important;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.418);
 }
 #fooldal ul{
   margin-bottom: 50px !important;
