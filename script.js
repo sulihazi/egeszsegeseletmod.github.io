@@ -1,6 +1,6 @@
 function myFunction() {
     const kepek = ["./kepek/hatter.jpeg","./kepek/hatter2.jpeg","./kepek/hatter3.jpg","./kepek/hatter4.jpg","./kepek/hatter5.jpg",
-    "./kepek/hatter6.jpeg","./kepek/hatter7.jpg","./kepek/hatter8.png",];
+    "./kepek/hatter6.jpeg","./kepek/hatter8.png",];
   
   // Véletlenszerűen válasszuk ki egy képet
   const kepIndex = Math.floor(Math.random() * kepek.length);
