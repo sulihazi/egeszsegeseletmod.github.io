@@ -54,7 +54,7 @@ header{
     top:0;
     left: 0;
 
-    background-color: rgba(24, 24, 24, 0.233) !important;
+    background-color: rgba(12, 12, 12, 0.315) !important;
     backdrop-filter: blur(10px);
 }
 .feherites{
@@ -354,8 +354,9 @@ footer{
   float: left !important;
 }
 .carousel img{
-  max-width: 700px !important;
-  height: auto !important;
+  max-height: 39.88035892323031vh !important;
+  width: 36.458333333333336vw!important;
+  image-orientation: from-image !important;
   margin:0 auto !important;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
   border-top-right-radius: 40px !important;
@@ -363,16 +364,25 @@ footer{
   border-bottom-right-radius: 10px !important;
   border-top-left-radius: 10px !important;
   transition: all 0.7s ease;
+  filter: brightness(60%) !important;
+  -webkit-filter: brightness(60%) !important;
 }
+
 .carousel{
+
   margin: 10px 20px 10px 20px !important;
   transition: all 0.7s ease;
 }
 .carousel-caption p{
   color: white !important;
+  width: 100%!important;
+  text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.411);
 }
 .carousel-caption h5{
+  color: rgb(245, 245, 245) !important;
   font-weight: 550 !important;
+   text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.411);
+   
 }
 .carousel-inner{
   transition: 0.5s all !important;
