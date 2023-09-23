@@ -620,3 +620,9 @@ footer .row{
 #col{
   margin: 20px !important;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
