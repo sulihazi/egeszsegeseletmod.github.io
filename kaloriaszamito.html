@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   
     <link rel="stylesheet" href="stilus.css">
-      <link rel="stylesheet" href="stilusok/fejlesztesalatt.css">
+      <link rel="stylesheet" href="stilusok/kaloriaszamito.css">
     <meta name="description" content="Üdvözlünk">
     <meta property="og:url" content="https://sulihazi.github.io/egeszsegeseletmod.github.io/">
     <meta property="og:type" content="website">
@@ -22,7 +22,7 @@
     <meta name="twitter:image" content="">
     <link rel="shortcut icon" href="./kepek/logo.png" type="image/x-icon">
     <script src="script.js"></script>
-     <script src="BMI.js"></script>
+     <script src="kaloriaszamito.js"></script>
 </head>
 <body onload="myFunction()">
    
@@ -43,22 +43,22 @@
                         <a class="nav-link " href="index.html"><img src="./kepek/home.png" height="20vh" width="20vw">Főoldal <span class="sr-only">(current)</span></a>
                     </li>
   <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle aktiv" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false"><img src="./kepek/lifestyle.png" height="20vh"
                 width="20vw" />Életmód</a>
-            <div class="dropdown-menu dropdown-menu-right animate slideIn " aria-labelledby="navbarDropdownMenuLink">
-              <a class="dropdown-item " href="dietak.html">Diéták</a>
-              <a class="dropdown-item aktivdropdown" href="testmozgas.html">Testmozgás</a>
-              <a class="dropdown-item " href="mentalisegeszseg.html">Mentális Egészség</a>
-              <a class="dropdown-item " href="eletmodtippek.html">Életmódtippek</a>
+            <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="bmikalkulator.html">Diéták</a>
+              <a class="dropdown-item" href="vizfogyasztas.html">Testmozgás</a>
+              <a class="dropdown-item" href="vizfogyasztas.html">Mentális Egészség</a>
+              <a class="dropdown-item" href="vizfogyasztas.html">Életmódtippek</a>
             </div>
           </li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle " href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./kepek/bmicalc.png" height="20vh" width="20vw">Kalkulátorok</a>
+                        <a class="nav-link dropdown-toggle aktiv" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./kepek/bmicalc.png" height="20vh" width="20vw">Kalkulátorok</a>
                         <div class="dropdown-menu dropdown-menu-right animate slideIn" aria-labelledby="navbarDropdownMenuLink">
                             <a class="dropdown-item " href="bmikalkulator.html">BMI kalkulátor</a>
                             <a class="dropdown-item" href="vizfogyasztas.html">Vízfogyasztás</a>
-              <a class="dropdown-item" href="kaloriaszamito.html">Kalóriaszámító</a>
+                               <a class="dropdown-item aktivdropdown" href="kaloriaszamito.html">Kalóriaszámító</a>
                             
                         </div>
                     </li>
@@ -70,17 +70,47 @@
         </nav>
    
     </div>
-        <div class="row" id="fejlesztesalatt">
+        <div class="row" id="kaloriaszamito">
             <div class="col">
-                <h1>Fejlesztés alatt</h1>
+                <h1>Kalória számító</h1>
             
             </div>
         </div>
     
   </header>
 
-    <div id="tartalom">
-      
+  <div id="tartalom">
+    <div id="calculator">
+      <form id="szamit">
+        <label for="nem">Nem:</label><br>
+        <select id="nem">
+            <option value="ferfi">Férfi</option>
+            <option value="no">Nő</option>
+        </select><br>
+
+        <label for="eletkor">Életkor:</label><br>
+        <input type="number" id="eletkor"><br>
+
+        <label for="testsuly">Testsúly (kg):</label><br>
+        <input type="number" id="testsuly"><br>
+
+        <label for="magassag">Magasság (cm):</label><br>
+        <input type="number" id="magassag"><br>
+
+        <label for="aktivitas">Aktivitási szint:</label><br>
+        <select id="aktivitas"><br>
+            <option value="alacsony">Alacsony (ülő életmód)</option>
+            <option value="kozepes">Közepes (könnyű testmozgás, napi 1 óra)</option>
+            <option value="magas">Magas (intenzív testmozgás, napi 2 óra)</option>
+        </select><br>
+
+        <input type="button" value="Kiszámol" onclick="KaloriaSzamlalas()">
+    </form>
+
+    <p id="ki"></p>
+
+        <p>Ez a kalóriaszámító segít meghatározni a napi ajánlott kalória-bevitelt a megadott súly és magasság alapján.</p>
+      </div>
     </div>
 
 <footer>
