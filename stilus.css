@@ -13,6 +13,10 @@
   font-family: 'Sansregular';
   src: url(./betutipusok/GeneralSans/GeneralSans-Regular.ttf);
 }
+@font-face {
+  font-family: 'Manrope';
+  src: url(./betutipusok/Manrope/manrope-medium.otf);
+}
 *{
     margin: 0 !important;
     padding: 0 !important;
@@ -175,6 +179,7 @@ a.dropdown-item:hover{
   background-color: white !important;
 
 }
+
 .nav-link img{
   margin-right: 5px !important;
   margin-bottom: 5px !important;
@@ -482,7 +487,9 @@ footer{
   border: none !important;
 }
 
-
+.navbar-brand div{
+  font-family: "Manrope" !important;
+}
 #fooldal h1{
   font-weight: 600 !important;
   margin-top: 20px !important;
