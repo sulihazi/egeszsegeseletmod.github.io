@@ -82,22 +82,27 @@
   <div id="tartalom">
     <div id="calculator">
       <form id="szamit">
-        <label for="nem">Nem:</label><br>
+        <label for="nem"><img src="./kepek/nem.svg" height="20vh"
+          width="20vw" /> Nem:</label><br>
         <select id="nem">
             <option value="ferfi">Férfi</option>
             <option value="no">Nő</option>
         </select><br>
 
-        <label for="eletkor">Életkor:</label><br>
-        <input type="number" id="eletkor"><br>
+        <label for="eletkor"><img src="./kepek/kor.png" height="20vh"
+          width="20vw" />Életkor</label><br>
+        <input type="number" id="eletkor" min="6" max="120"><br>
 
-        <label for="testsuly">Testsúly (kg):</label><br>
-        <input type="number" id="testsuly"><br>
+        <label for="testsuly"><img src="./kepek/merleg.png" height="20vh"
+          width="20vw" />Testsúly (kg)</label><br>
+        <input type="number" id="testsuly" min="10" max="600"><br>
 
-        <label for="magassag">Magasság (cm):</label><br>
-        <input type="number" id="magassag"><br>
+        <label for="magassag"><img src="./kepek/magassag.png" height="20vh"
+          width="20vw" />Magasság (cm)</label><br>
+        <input type="number" id="magassag" min="10" max="250"><br>
 
-        <label for="aktivitas">Aktivitási szint:</label><br>
+        <label for="aktivitas"><img src="./kepek/aktivitas.png" height="20vh"
+          width="20vw" />Aktivitási szint</label><br>
         <select id="aktivitas"><br>
             <option value="alacsony">Alacsony (ülő életmód)</option>
             <option value="kozepes">Közepes (könnyű testmozgás, napi 1 óra)</option>

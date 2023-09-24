@@ -306,7 +306,7 @@ a.dropdown-item:hover{
   font-family: 'Sansregular';
   color: rgb(255, 255, 255);
   font-size: 18px;
-  text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.952) !important;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.582) !important;
   margin-bottom: 15px !important;
 }
  .gomb{
@@ -637,4 +637,12 @@ footer .row{
 .navbar-toggler-icon:focus {
     outline: none !important;
     box-shadow: none !important;
+}
+
+#calculator img{
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+#calculator label{
+  text-align: left !important;
 }
