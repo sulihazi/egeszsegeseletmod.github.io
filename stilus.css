@@ -417,6 +417,18 @@ font-weight: 550 !important;
   -ms-border-radius: 10px !important;
   -o-border-radius: 10px !important;
 }
+.carousel-control-prev{
+  opacity: 0.8 !important;
+}
+.carousel-control-next{
+  opacity: 0.8 !important;
+}
+.carousel-control-prev:hover{
+  opacity: 0.5!important;
+}
+.carousel-control-next:hover{
+  opacity: 0.5!important;
+}
 #balra{
   border-top-left-radius: 50px !important;
   border-top-right-radius: 10px !important;
