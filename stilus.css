@@ -326,8 +326,8 @@ a.dropdown-item:hover{
 
   margin-left: 4px !important;
   margin-right: 4px !important;
-  box-shadow:  5px 5px 10px #2222227c,
-               -5px -5px 10px #2020207a;
+  box-shadow:  5px 5px 6px #2222223a,
+               -5px -5px 6px #20202044;
 }
  .gomb:hover{
   transition: 0.5s all;
@@ -354,12 +354,11 @@ font-weight: 550 !important;
   text-align: left !important;
   float: left !important;
 }
-.carousel img{
+.carousel-item img{
   max-height: 39.88035892323031vh !important;
   width: 36.458333333333336vw!important;
   image-orientation: from-image !important;
   margin:0 auto !important;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
   border-top-right-radius: 40px !important;
   border-bottom-left-radius: 40px !important;
   border-bottom-right-radius: 40px !important;
@@ -367,6 +366,9 @@ font-weight: 550 !important;
   transition: all 0.7s ease;
   filter: brightness(70%) !important;
   -webkit-filter: brightness(70%) !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.541);
+  padding: 8px !important;
+  border: 4px solid white;
 }
 
 .carousel{
@@ -385,16 +387,19 @@ font-weight: 550 !important;
   -moz-border-radius: 15px !important;
   -ms-border-radius: 15px !important;
   -o-border-radius: 15px !important;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.363);
 }
 .carousel-caption h5{
   color: rgb(245, 245, 245) !important;
   font-weight: 800 !important;
    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.411);
    text-align: left !important;
+   margin-bottom: 5px !important;
    font-family: 'Sansbold' !important;
    
 }
 .carousel-inner{
+  
   transition: 0.5s all !important;
   -webkit-transition: 0.5s all !important;
   -moz-transition: 0.5s all !important;
