@@ -118,17 +118,22 @@ nav{
   
 
   ::-webkit-scrollbar-track {
-    background: #e4e4e4;
+    background: #ececec;
   }
   
 
   ::-webkit-scrollbar-thumb {
-    background: #0a7c00;
-  }
+    background: #757575;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
   
 
   ::-webkit-scrollbar-thumb:hover {
-    background: #043500;
+    background: #353535 ;
   }
 
 .dropdown-menu{

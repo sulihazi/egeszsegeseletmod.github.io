@@ -13,7 +13,6 @@ function KaloriaSzamlalas() {
     } else {
         alapkaloria = 447.593 + (9.247 * testsuly) + (3.098 * magassag) - (4.330 * eletkor);
     }
-
     var aktivitasSzorzo;
     if (aktivitas === 'alacsony') {
         aktivitasSzorzo = 1.2;

@@ -135,6 +135,10 @@ input[type="number"]::-webkit-inner-spin-button {
   -ms-transition: 0.5s all !important;
   -o-transition: 0.5s all !important;
 }
+#tartalom select:focus{
+  outline: none !important;
+  border: none !important;
+}
 #tartalom input[type="number"]:hover{
   background: #ececec;
   transition: 0.5s all !important;
@@ -147,6 +151,7 @@ input[type="number"]::-webkit-inner-spin-button {
   outline: none !important;
   border: none !important;
 }
+
 #tartalom{
     max-height: fit-content !important;
   }
