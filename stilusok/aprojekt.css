@@ -188,6 +188,7 @@ input[type="number"]::-webkit-inner-spin-button {
 #tartalom h3{
   font-weight: 550 !important;
   margin: 20px !important;
+  margin-top: 30px !important;
 }
 #tartalom img{
   border-radius: 100% !important;
@@ -209,4 +210,54 @@ input[type="number"]::-webkit-inner-spin-button {
   -moz-border-radius: 15px !important;
   -ms-border-radius: 15px !important;
   -o-border-radius: 15px !important;
+}
+#hatter1{
+  position:relative !important;
+  background: url(../kepek/eper.jpg);
+  margin:0px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: unset !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  padding: 10px !important;
+    box-shadow:  6px 6px 12px #cbcbcb,               -6px -6px 12px #ffffff;
+}
+#hatter2{
+  position:relative !important;
+  background: url(../kepek/banan.webp);
+  margin:0px !important;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: unset !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  padding: 10px !important;
+  box-shadow:  6px 6px 12px #cbcbcb,               -6px -6px 12px #ffffff;
+}
+#hatter3{
+  position:relative !important;
+  background: url(../kepek/kiwi.jpg);
+  margin:0px !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: unset !important;
+  border-radius: 15px !important;
+  -webkit-border-radius: 15px !important;
+  -moz-border-radius: 15px !important;
+  -ms-border-radius: 15px !important;
+  -o-border-radius: 15px !important;
+  padding: 10px !important;
+  box-shadow:  6px 6px 12px #cbcbcb,               -6px -6px 12px #ffffff;
+}
+#tartalom img{
+  margin-bottom: -35px !important;
+  box-shadow:  0px 0px 12px #41414183;
 }
