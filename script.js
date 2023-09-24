@@ -1,6 +1,6 @@
 function myFunction() {
-    const kepek = ["./kepek/hatter.jpeg","./kepek/hatter2.jpg","./kepek/hatter3.jpg","./kepek/hatter4.png","./kepek/hatter5.jpg",
-    "./kepek/hatter6.jpg","./kepek/hatter8.png","./kepek/hatter9.jpg","./kepek/hatter10.webp","./kepek/hatter7.jpg",];
+    const kepek = ["./kepek/hatter2.jpg","./kepek/hatter4.png",
+    "./kepek/hatter6.jpg","./kepek/hatter10.jpg","./kepek/hatter7.jpg","./kepek/hatter3.jpg","./kepek/hatter9.jpeg","./kepek/hatter8.jpg","./kepek/hatter1.jpg",];
   
 
   const kepIndex = Math.floor(Math.random() * kepek.length);
