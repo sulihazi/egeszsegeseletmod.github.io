@@ -74,3 +74,6 @@ if (history.scrollRestoration) {
         window.scrollTo(0, 0);
     }
 }
+
+
+document.addEventListener('contextmenu', event => event.preventDefault());
