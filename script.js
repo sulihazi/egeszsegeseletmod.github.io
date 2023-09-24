@@ -36,3 +36,41 @@ function changeButton() {
 
 
 window.addEventListener('load', changeButton);
+
+
+history.scrollRestoration = 'manual';
+
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+} else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
+
+window.onbeforeunload = function () {
+    window.scrollTo(0, 0);
+}
+
+function betoltes(){
+	myVar = setTimeout(oldalmutat, 800);
+}
+
+
+function oldalmutat() {
+  var loader = document.getElementById("betolto");
+  var hatter = document.getElementById("betolt");
+  loader.classList.add("eltunes");
+  hatter.classList.add("eltunes");
+document.body.style.overflow = "visible";
+}
+
+history.scrollRestoration = 'manual';
+
+if (history.scrollRestoration) {
+    history.scrollRestoration = 'manual';
+} else {
+    window.onbeforeunload = function () {
+        window.scrollTo(0, 0);
+    }
+}
