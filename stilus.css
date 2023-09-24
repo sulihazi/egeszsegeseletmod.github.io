@@ -394,6 +394,36 @@ font-weight: 550 !important;
   -ms-transition: 0.5s all !important;
   -o-transition: 0.5s all !important;
 }
+#balra img, #jobbra img{
+  width: 25px !important;
+  height:25px !important;
+  box-shadow: none !important;
+  margin-top: 13px !important;
+}
+#balra, #jobbra{
+  background-color: rgb(255, 255, 255) !important;
+  padding: 5px !important;
+  opacity: 1 !important;
+  border-radius: 10px !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  -ms-border-radius: 10px !important;
+  -o-border-radius: 10px !important;
+}
+#balra{
+  border-top-left-radius: 50px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 50px !important;
+  border-bottom-right-radius: 10px !important;
+  height: 60px !important;
+}
+#jobbra{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 50px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 50px !important;
+  height: 60px !important;
+}
 .aktiv{
 transition: 0.5s all !important;
   border-radius: 15px !important;
