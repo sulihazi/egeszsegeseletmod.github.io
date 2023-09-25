@@ -144,6 +144,11 @@ input[type="number"]::-webkit-inner-spin-button {
       padding-top: 120px !important;
       margin: 0px !important;
     }
+    #bmikalkulator h1{
+
+      font-size: 37px !important;
+
+    }
   }
   @media only screen and (max-width: 600px) {
     h1{
