@@ -737,9 +737,7 @@ footer .row{
   margin-right: 50px !important;
   margin-left: 50px !important;
 }
-#col3 h4{
-  margin-bottom: 20px !important;
-}
+
 #col{
   margin: 20px !important;
 }
@@ -837,7 +835,7 @@ footer #col3 a:hover{
     box-shadow: 20px 0 rgb(0, 0, 0), 40px 0 rgba(255, 255, 255, 0.25), 60px 0 rgb(0, 0, 0);
   }
   100% {
-    box-shadow: 20px 0 rgb(0, 0, 0), rgb(0, 0, 0)0 rgb(0, 0, 0), 60px 0 rgba(255, 255, 255, 0.25);
+    box-shadow: 20px 0 rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 60px 0 rgba(255, 255, 255, 0.25);
   }
 }
   #betolt{
