@@ -278,3 +278,31 @@ input[type="number"]::-webkit-inner-spin-button {
   margin-bottom: -35px !important;
   box-shadow:  0px 0px 12px #41414183;
 }
+.feketegomb{
+  display: block !important;
+  transition: 0.5s all !important;
+  color:white !important;
+  margin-top: 5px !important;
+  border-radius: 10px;
+  font-family: 'Sansregular';
+  padding: 12px !important;
+  border: none !important;
+  background: #0c0c0c !important;
+  width: 90% !important;
+  margin:0 auto !important;
+  box-shadow:  5px 5px 10px #2222223a,               -5px -5px 10px #20202044;
+  -webkit-transition: 0.5s all !important;
+  -moz-transition: 0.5s all !important;
+  -ms-transition: 0.5s all !important;
+  -o-transition: 0.5s all !important;
+}
+ .feketegomb:hover{
+  transition: 0.5s all !important;
+  background:  #2e2e2e !important;
+  text-decoration: none !important;
+  box-shadow:  3px 3px 6px #2222223a,               -3px -3px 6px #20202044;
+  -webkit-transition: 0.5s all !important;
+  -moz-transition: 0.5s all !important;
+  -ms-transition: 0.5s all !important;
+  -o-transition: 0.5s all !important;
+}
