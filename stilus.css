@@ -290,7 +290,7 @@ a.dropdown-item:hover{
 #tartalom{
   padding: 70px !important;
   position: relative !important;
-  min-height: 100vh !important;
+  min-height: 30vh !important;
   color: rgb(8, 8, 8) !important;
 
 }
